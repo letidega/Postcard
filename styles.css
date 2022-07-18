@@ -1,0 +1,49 @@
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header h1 {
+	width: 400px;
+	margin: 0%;
+}
+#imagen {
+	width: 50px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+	font-family: "Dancing Script", cursive;
+	font-family: "Edu NSW ACT Foundation", cursive;
+	font-family: "Kalam", cursive;
+}
+.body-left {
+	padding: 5px;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-right {
+	padding: 5px;
+}
+input {
+	border: none;
+	border-bottom: 1px pink solid;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: deepskyblue;
+	color: white;
+	padding: 10px;
+	border: none;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
